@@ -16,13 +16,6 @@ class calculator extends React.Component{
 
      }
 
-   /*  componentDidUpdate(){
-         var obj={
-             weight:this.state.weight,
-             height:this.state.height
-            }
-         axios.post('/bmi',obj).then(res=>console.log("successfully posted data")).catch(err=>console.log(err));
-     }*/
      handleChange(event){
      
          this.setState({
