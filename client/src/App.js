@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink,useHistory,BrowserRouter as Router,Route,Link, Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Route,Link} from 'react-router-dom';
 import Calculator from './Components/calculator';
 
 
@@ -9,11 +9,11 @@ function App(){
       return(
          <>
          <div>
-            
+         
             <Router>
            <Link to='/bmi'>GoTo </Link>
            </Router>
-           
+
          </div>
          <div className='bmi-app'>
                     

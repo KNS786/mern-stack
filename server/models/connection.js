@@ -1,7 +1,7 @@
 // username : navani password:w2ohpeXGQRarflAg
 
 var mongoose=require('mongoose');
-var URI=process.env.MONGOURI;
+var URI=process.env.MONGOURI || "mongodb+srv://navani:w2ohpeXGQRarflAg@cluster0.fcsv4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose.connect(URI,{
     useNewUrlParser:true,
